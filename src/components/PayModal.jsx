@@ -85,8 +85,6 @@ const PayModal = ({
             </BoughtItem>
           ))}
           <SuccessText>Оплата прошла успешно</SuccessText>
-          {/* <Button onClick={closeModal}><b>Закрыть</b></Button> */}
-
         </Container>
       ) : <Spinner />}
 
